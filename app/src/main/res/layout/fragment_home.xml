@@ -9,7 +9,51 @@
     <TextView
         android:id="@+id/homeFrag"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Home" />
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Usuario:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:translationX="125dp"
+        android:translationY="150dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contrasena:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:translationX="125dp"
+        android:translationY="200dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Deudas Activas:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textStyle="bold|italic"
+        android:translationX="50dp"
+        android:translationY="350dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:translationX="185dp"
+        android:translationY="339dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ingresar"
+        android:translationX="150dp"
+        android:translationY="250dp" />
 
 </FrameLayout>
