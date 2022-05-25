@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/homeFrag"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Home" />
+    <item
+        android:id="@+id/deudasFrag"
+        android:icon="@drawable/ic_baseline_money_24"
+        android:title="Deudas" />
+    <item
+        android:id="@+id/addNewFrag"
+        android:icon="@drawable/ic_baseline_view_list_24"
+        android:title="Agregar/Borrar" />
+</menu>
